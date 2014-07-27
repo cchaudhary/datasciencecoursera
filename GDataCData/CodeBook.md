@@ -5,10 +5,10 @@ This code book will describe the data used in this project, as well as the proce
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 ##Data Set
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-##Analysis Variables
-##Variable  Description Of Variable
-activity  The activity performed
-subject_id The ID of the subject.
+##Analysis Variables 
+##Variable and the assocaited description
+activity -  The activity performed
+subject_id - The ID of the subject.
 tBodyAcc-mean()-XMean time for acceleration of body for X direction.
 tBodyAcc-mean()-YMean time for acceleration of body for Y direction.
 tBodyAcc-mean()-ZMean time for acceleration of body for Z direction.
@@ -43,9 +43,10 @@ tBodyAcc-mean()-ZMean time for acceleration of body for Z direction.
 fBodyAccMag-std()Standard deviation of frequency of body acceleration magnitude.fBodyBodyAccJerkMag-mean()Mean frequency of body acceleration jerk magnitude.fBodyBodyAccJerkMag-std()Standard deviation of frequency of body acceleration jerk magnitude.
 fBodyBodyGyroMag-mean()Mean frequency of magnitude of body gyroscope measurement.
 fBodyBodyGyroMag-std()Standard deviation of frequency of magnitude of body gyroscope measurement.
-fBodyBodyGyroJerkMag-mean()Mean frequency of magnitude of body gyroscope jerk measurement.
+fBodyBodyGyroJerkMag-mean()Mean frequency of magnitude of body gyroscope jerk measurement
 
-## Processing steps
+##Processing steps
+
 All of the relevant data files were read into data frames, appropriate column headers were added, and the training and test sets were combined into a single data set.
 All feature columns were removed that did not contain the exact string "mean()" or "std()". This left 66 feature columns, plus the subject_id and activity columns.
 The activity column was converted from a integer to a factor, using labels describing the activities.
