@@ -6,9 +6,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ##Data Set
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ##Analysis Variables 
-##Variable and the assocaited description
+
 activity -  The activity performed
-subject_id - The ID of the subject.
+subject_id -The ID of the subject.
 tBodyAcc-mean()-XMean time for acceleration of body for X direction.
 tBodyAcc-mean()-YMean time for acceleration of body for Y direction.
 tBodyAcc-mean()-ZMean time for acceleration of body for Z direction.
